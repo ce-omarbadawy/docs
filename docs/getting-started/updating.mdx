@@ -27,6 +27,13 @@ docker rm -f open-webui
 docker pull ghcr.io/open-webui/open-webui:main
 ```
 
+:::warning
+If you're using Open WebUI with Bundled Ollama Support, Throughout all relevant parts replace:
+`ghcr.io/open-webui/open-webui:main`
+with
+`ghcr.io/open-webui/open-webui:ollama`
+:::
+
 
 :::info
 **Remove any existing data in the Docker volume (NOT RECOMMENDED UNLESS ABSOLUTELY NECCESSARY!)**. Skip this step entirely if not needed and move on to the last step:
